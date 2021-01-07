@@ -32,3 +32,5 @@ public:
         return answer;
     }
 };
+//time complexity : 2N
+//time : 8ms
