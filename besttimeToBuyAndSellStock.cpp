@@ -26,7 +26,5 @@ int main(void) {
 	vector<int> v = { 3, 3, 5, 0, 0, 3, 1, 4 };
 	if (maxProfit(v) == 6)
 		cout << "성공";
-	else
-		cout << "실패";
 	return 0;
 }
