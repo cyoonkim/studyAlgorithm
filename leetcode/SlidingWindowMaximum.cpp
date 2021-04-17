@@ -1,3 +1,9 @@
+/*
+2021-04-17
+Runtime: 204 ms, faster than 94.97% of C++ online submissions for Sliding Window Maximum.
+Memory Usage: 129.9 MB, less than 70.40% of C++ online submissions for Sliding Window Maximum.
+*/
+
 #include <iostream>
 #include <algorithm>
 #include <vector>
@@ -7,7 +13,6 @@ int numdata[201][100];
 int row_count[201];
 
 vector<int> maxSlidingWindow(vector<int>& nums, int k) {
-	//초기화
 	for (int i = 0; i < 201; i++) {
 		memset(numdata[i], 0, sizeof(int) * 100);
 		row_count[i] = 0;
